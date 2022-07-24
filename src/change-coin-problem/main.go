@@ -25,9 +25,12 @@ func numberOfCoin(coins []int, quantity int) {
 		}
 		i--
 	}
-	fmt.Printf("%v\n", result)
+	fmt.Printf("You receive %d coins in total \n"+
+		"Your coins in detail  %v\n"+
+		"You asked for the amount of %d \n"+
+		"Your coins input %v ", coinSum, result, quantity, coins)
 }
 func main() {
-	var coins = []int{1, 10, 30}
+	var coins = []int{2, 10, 30}
 	numberOfCoin(coins, 15)
 }
