@@ -31,6 +31,6 @@ func numberOfCoin(coins []int, quantity int) {
 		"Your coins input %v ", coinSum, result, quantity, coins)
 }
 func main() {
-	var coins = []int{2, 10, 30}
-	numberOfCoin(coins, 15)
+	var coins = []int{1, 10, 25}
+	numberOfCoin(coins, 30)
 }
